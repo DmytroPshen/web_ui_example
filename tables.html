@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My First Project</title>
+        <style type="text/css">
+            th, td{
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <table width="500">
+            <caption>My first table</caption><!-- Заголовок таблиці -->>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Item</th>
+                    <th>Item</th>
+                    <th>Item</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td rowspan="2">Item</td><!-- об'єднання комірок вертикально -->
+                </tr>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                </tr>
+            </tbody>
+            <tfoot> <!-- Футер таблиці -->>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td colspan="2">Item</td><!-- об'єднання комірок горизонтально -->
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
